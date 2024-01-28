@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Igor Guimarães | Interactive rating component</title>
+</head>
+<body>
+<main>
+  <div class="main-content rating">
+    <img id="icon-star" src="./images/icon-star.svg" alt="icon-star">
+    <h2>How did we do?</h2>
+
+    <p>Please let us know how we did with your support request. All feedback is appreciated 
+    to help us improve our offering!</p>
+
+    <div class = 'buttons-rate'>
+      <input type="radio" class="radiobox radiobox--1 1" id="button-1"></input>
+      <label for="button-1" class="button-rate button-rate--1 1">1</label>
+      <input type="radio" class="radiobox radiobox--2 2" id="button-2"></input>
+      <label for="button-2" class="button-rate button-rate--2 2">2</label>
+      <input type="radio" class="radiobox radiobox--3 3" id="button-3"></input>
+      <label for="button-3" class="button-rate button-rate--3 3">3</label>
+      <input type="radio" class="radiobox radiobox--4 4" id="button-4"></input>
+      <label for="button-4" class="button-rate button-rate--4 4">4</label>
+      <input type="radio" class="radiobox radiobox--5 5" id="button-5"></input>
+      <label for="button-5" class="button-rate button-rate--2 5">5</label>
+    </div>
+
+    <div class="button-submit__div">
+      <button id='button-submit'>Submit</button>
+    </div>
+  </div>
+
+  <div class="main-content thank-you hide">
+    <img id="img-thank-u" src="./images/illustration-thank-you.svg" alt="thank u">
+
+    <p>You selected <b id="x"> X </b> out of 5</p>
+
+    <h2>Thank you!</h2>
+
+    <p>We appreciate you taking the time to give a rating. If you ever need more support, 
+    don’t hesitate to get in touch!</p>
+    </div>
+
+</main>
+  
+<footer>
+  <div class="attribution">
+    Coded by <a class="me" href="https://github.com/IgorGGuimaraes">Igor Guimarães</a>.
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
